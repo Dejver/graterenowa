@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gra Terenowa - Dni Otwarte</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏁 Gra Terenowa - Dni Otwarte</h1>
+    <p>🔍 Odkryj sekrety kampusu i sprawdź się w 10 zagadkach!</p>
+  </header>
+
+  <main>
+    <button id="startBtn">🚀 Rozpocznij grę</button>
+    <div id="quiz" style="display: none;"></div>
+    <div class="controls" id="controls" style="display: none;">
+      <button onclick="checkAnswers()" id="submitBtn">✅ Sprawdź odpowiedzi</button>
+      <div id="result"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>🎓 Powodzenia! Twoja przygoda właśnie się zaczyna...</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
